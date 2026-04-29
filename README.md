@@ -12,6 +12,8 @@
 mani-cli es una herramienta de interfaz de línea de comandos (CLI) extremadamente ligera para buscar y reproducir anime directamente desde tu terminal.
 
 En lugar de navegar por webs llenas de anuncios, este script extrae la información en tiempo real y te ofrece un menú interactivo y limpio. Una vez eliges tu episodio, lo lanza directamente en una ventana de tu navegador lista para disfrutar.
+
+
 ✨ Características
 
     Búsqueda en vivo: Busca cualquier anime directamente desde la terminal.  
@@ -21,6 +23,7 @@ En lugar de navegar por webs llenas de anuncios, este script extrae la informaci
     Modo Maratón: El script se mantiene abierto en segundo plano. Cuando termines un capítulo, solo presiona una tecla para elegir el siguiente.  
 
     Filtro inteligente: Extrae automáticamente los enlaces de servidores de video subtitulados y los limpia para su reproducción directa.  
+
 
 ⚙️ Requisitos previos
 
@@ -35,9 +38,9 @@ Para que el script funcione correctamente, necesitas tener instaladas las siguie
     Brave Browser (Ver la sección de Navegadores alternativos si no usas Brave)
 
 Para instalar fzf en distribuciones basadas en Debian/Ubuntu:
-Bash
 
 sudo apt install fzf curl
+
 
 🚀 Instalación
 
@@ -55,26 +58,26 @@ Bash
 
 sudo cp mani-cli.sh /usr/local/bin/mani-cli
 
+
+
 🎮 Cómo usarlo
 
 Abre tu terminal y simplemente escribe:
-Bash
+    -mani-cli
 
-mani-cli
+    -Escribe el nombre del anime que quieres ver y presiona Enter.  
 
-El flujo es muy sencillo:
+    -Selecciona el resultado correcto de la lista.  
 
-    Escribe el nombre del anime que quieres ver y presiona Enter.  
+    -Elige el número de episodio (ordenados del más reciente al más antiguo).  
 
-    Selecciona el resultado correcto de la lista.  
+    -Selecciona el servidor de video que prefieras.  
 
-    Elige el número de episodio (ordenados del más reciente al más antiguo).  
+    -¡Disfruta! El video se abrirá en una ventana emergente.  
 
-    Selecciona el servidor de video que prefieras.  
+    -En cualquier momento, puedes presionar ESC para volver al paso anterior o salir del programa.  
 
-    ¡Disfruta! El video se abrirá en una ventana emergente.  
 
-    En cualquier momento, puedes presionar ESC para volver al paso anterior o salir del programa.  
 
 🌐 Navegadores Alternativos (Personalización)
 
