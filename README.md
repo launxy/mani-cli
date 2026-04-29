@@ -7,6 +7,8 @@
  / /  / // /_/ // / / /  / / /_____// /___ / /___ _/ /   
 /_/  /_/ \__,_//_/ /_/  /_/         \____//_____//___/
 
+
+
 mani-cli es una herramienta de interfaz de línea de comandos (CLI) extremadamente ligera para buscar y reproducir anime directamente desde tu terminal.
 
 En lugar de navegar por webs llenas de anuncios, este script extrae la información en tiempo real y te ofrece un menú interactivo y limpio. Una vez eliges tu episodio, lo lanza directamente en una ventana de tu navegador lista para disfrutar.
