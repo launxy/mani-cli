@@ -9,9 +9,12 @@
 
 
 
-mani-cli es una herramienta de interfaz de línea de comandos (CLI) extremadamente ligera para buscar y reproducir anime directamente desde tu terminal.
+mani-cli es una herramienta de interfaz de línea de comandos (CLI) extremadamente ligera para buscar
+y reproducir anime directamente desde tu terminal.
 
-En lugar de navegar por webs llenas de anuncios, este script extrae la información en tiempo real y te ofrece un menú interactivo y limpio. Una vez eliges tu episodio, lo lanza directamente en una ventana de tu navegador lista para disfrutar.
+En lugar de navegar por webs llenas de anuncios, este script extrae la información en tiempo real
+y te ofrece un menú interactivo y limpio. Una vez eliges tu episodio, lo lanza directamente en una
+ventana de tu navegador lista para disfrutar.
 
 
 ✨ Características
@@ -20,20 +23,24 @@ En lugar de navegar por webs llenas de anuncios, este script extrae la informaci
 
     Interfaz interactiva: Menús limpios y rápidos usando fzf.  
 
-    Modo Maratón: El script se mantiene abierto en segundo plano. Cuando termines un capítulo, solo presiona una tecla para elegir el siguiente.  
+    Modo Maratón: El script se mantiene abierto en segundo plano. Cuando termines un capítulo,
+    solo presiona una tecla para elegir el siguiente.  
 
-    Filtro inteligente: Extrae automáticamente los enlaces de servidores de video subtitulados y los limpia para su reproducción directa.  
+    Filtro inteligente: Extrae automáticamente los enlaces de servidores de video subtitulados
+    y los limpia para su reproducción directa.  
 
 
 ⚙️ Requisitos previos
 
-Para que el script funcione correctamente, necesitas tener instaladas las siguientes herramientas en tu sistema Linux/macOS:
+Para que el script funcione correctamente, necesitas tener instaladas las siguientes
+herramientas en tu sistema Linux/macOS:
 
     fzf (El motor de la interfaz interactiva)
 
     curl (Para las peticiones web)
 
-    grep, sed, awk (Herramientas estándar de manipulación de texto preinstaladas en casi cualquier distro)
+    grep, sed, awk (Herramientas estándar de manipulación de texto preinstaladas en
+    casi cualquier distro)
 
     Brave Browser (Ver la sección de Navegadores alternativos si no usas Brave)
 
@@ -81,9 +88,12 @@ Abre tu terminal y simplemente escribe:
 
 🌐 Navegadores Alternativos (Personalización)
 
-Por defecto, el script está configurado para abrir el video usando Brave en modo "app" e incógnito (brave --app="URL" --incognito). Esto ofrece la mejor experiencia, ya que abre el reproductor en una ventana limpia, sin barra de direcciones y utilizando el bloqueador de anuncios nativo de Brave.  
+Por defecto, el script está configurado para abrir el video usando Brave en modo "app" e incógnito
+(brave --app="URL" --incognito). Esto ofrece la mejor experiencia, ya que abre el reproductor en
+una ventana limpia, sin barra de direcciones y utilizando el bloqueador de anuncios nativo de Brave.  
 
-Si no usas Brave, puedes modificar el script fácilmente. Abre el archivo mani-cli.sh con tu editor de texto favorito, ve a la línea 66 y cambia el comando de ejecución.  
+Si no usas Brave, puedes modificar el script fácilmente. Abre el archivo mani-cli.sh con tu editor
+de texto favorito, ve a la línea 66 y cambia el comando de ejecución.  
 
 Ejemplo:
 
