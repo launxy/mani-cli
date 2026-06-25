@@ -39,7 +39,7 @@ herramientas en tu sistema Linux/macOS:
 
 Para instalar fzf en distribuciones basadas en Debian/Ubuntu:
 
-sudo apt install fzf curl
+    sudo apt install fzf curl
 
 
 🚀 Instalación
