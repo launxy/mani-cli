@@ -10,7 +10,7 @@ y te ofrece un menú interactivo y limpio. Una vez eliges tu episodio, lo lanza 
 ventana de tu navegador lista para disfrutar.
 
 
-✨ Características
+# Características
 
     Búsqueda en vivo: Busca cualquier anime directamente desde la terminal.  
 
@@ -23,7 +23,7 @@ ventana de tu navegador lista para disfrutar.
     y los limpia para su reproducción directa.  
 
 
-⚙️ Requisitos previos
+# Requisitos previos
 
 Para que el script funcione correctamente, necesitas tener instaladas las siguientes
 herramientas en tu sistema Linux/macOS:
@@ -42,7 +42,7 @@ Para instalar fzf en distribuciones basadas en Debian/Ubuntu:
     sudo apt install fzf curl
 
 
-🚀 Instalación
+# Instalación
 
 Puedes instalar mani-cli globalmente en tu sistema con estos dos comandos:
 
@@ -60,9 +60,10 @@ Muévelo a tu carpeta de binarios para ejecutarlo desde cualquier lugar:
 
 
 
-🎮 Cómo usarlo
+# Cómo usarlo
 
 Abre tu terminal y simplemente escribe:
+
     -mani-cli
 
     -Escribe el nombre del anime que quieres ver y presiona Enter.  
@@ -79,7 +80,7 @@ Abre tu terminal y simplemente escribe:
 
 
 
-🌐 Navegadores Alternativos (Personalización)
+# 🌐 Navegadores Alternativos
 
 Por defecto, el script está configurado para abrir el video usando Brave en modo "app" e incógnito
 (brave --app="URL" --incognito). Esto ofrece la mejor experiencia, ya que abre el reproductor en
