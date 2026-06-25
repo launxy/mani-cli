@@ -46,17 +46,17 @@ sudo apt install fzf curl
 
 Puedes instalar mani-cli globalmente en tu sistema con estos dos comandos:
 
-    Descarga el script y dale permisos de ejecución:
+Descarga el script y dale permisos de ejecución:
 
-Bash
+    Bash
 
-chmod +x mani-cli.sh
+    chmod +x mani-cli.sh
 
-    Muévelo a tu carpeta de binarios para ejecutarlo desde cualquier lugar:
+Muévelo a tu carpeta de binarios para ejecutarlo desde cualquier lugar:
 
-Bash
+    Bash
 
-sudo cp mani-cli.sh /usr/local/bin/mani-cli
+    sudo cp mani-cli.sh /usr/local/bin/mani-cli
 
 
 
