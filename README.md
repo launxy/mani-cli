@@ -1,12 +1,5 @@
 # mani-cli
 
-```text
-    __  ___               _          ______ _      ____
-   /  |/  /____ _ ____   (_)        / ____// /    /  _/
-  / /|_/ // __ `// __ \ / / ______ / /    / /     / /  
- / /  / // /_/ // / / // / /_____// /___ / /___ _/ /   
-/_/  /_/ \__,_//_/ /_//_/         \____//_____//___/
-
 
 
 mani-cli es una herramienta de interfaz de línea de comandos (CLI) extremadamente ligera para buscar
